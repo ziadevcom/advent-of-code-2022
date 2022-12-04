@@ -39,7 +39,10 @@ def comparePair(pair):
 
 
 # Check if range 1 exits in range 2
-# Conditional checks if the end of the range 2 is lower than range 1 start or start of the range 2 is higher than the end of the range 1, if that condition is true, it means the range is not overlapping
+# Conditional checks if the end of the range 2 is lower
+# than range 1 start or start of the range 2 is higher 
+# than the end of the range 1, if that condition is true,
+# it means the range is not overlapping
 def inRange(range1, range2):
     if range2[1] < range1[0] or range2[0] > range1[1]:
         return False
